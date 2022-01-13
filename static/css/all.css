@@ -567,7 +567,7 @@ body {
 /* Basic Styles
  * ------------------------------------	 */
 body {
-  background: rgb(72, 66, 66);
+  background: rgb(7, 20, 37);
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
@@ -593,7 +593,7 @@ fieldset {
   h3 {
     padding: 50px 0 50px; } }
 .alt-section {
-  background: #282828;
+  background: rgb(7, 20, 37);
   padding-bottom: 100px; }
   .alt-section h3 {
     color: #cdacc5; } 
@@ -611,7 +611,7 @@ header, footer {
 
 header {
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/fc_hero2.png);
+  background-image: url(../img/logo.svg), url(../img/fc_hero2-shop.png);)
   padding-bottom: 50px; }
   header .logo {
     height: 50px;
@@ -659,7 +659,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/fc_hero2.png); }
+  background-image: url(../img/logo.svg), url(../img/fc_hero2-shop.png); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
