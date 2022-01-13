@@ -1,9 +1,9 @@
 [
     {
-      "id": "item-1",
+      "id": "783f31de-1cd5-41fd-824d-728e2a682bd0",
       "name": "Bass Guitar Dexterity Exercise",
       "price": 2.00,
-      "image": "",
+      "image": "/productImages/dexEx1.png",
       "description": "An exercise in finger dexterity for your fretting hand.",
       "product_url": "/"
     }
