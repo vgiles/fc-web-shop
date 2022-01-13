@@ -1,11 +1,12 @@
-<div class="product">
-    <h2 class="">{{ .name }}</h2>
+<section class="alt-section">
+<div class="product" style="padding-left: 30px; padding-right: 30px">
+    <h3 class=".body h3" style="text-align: left;">{{ .name }}</h3>
     {{ with .image }}
       <img class="product__image" src="{{ . }}" alt="">
     {{ end }}
     <p class="product__description">{{ .description }}</p>
     <div class="product__button-container">
-      <div class="product__price">${{ .price }}</div>
+      <div class="product__pric e">${{ .price }}</div>
       <button
         class="snipcart-add-item buy-button"
         data-item-id="{{ .id }}"
@@ -17,3 +18,4 @@
       </button>
     </div>
   </div>
+</section>

@@ -1,10 +1,10 @@
 [
     {
-      "id": "STRATUS",
-      "name": "Stratus",
-      "price": 9.95,
+      "id": "item-1",
+      "name": "Bass Guitar Dexterity Exercise",
+      "price": 2.00,
       "image": "",
-      "description": "Unlimited low, low clouds for one low, low price!",
+      "description": "An exercise in finger dexterity for your fretting hand.",
       "product_url": "/"
     }
   ]
