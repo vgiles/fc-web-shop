@@ -37,7 +37,7 @@ dfn {
   font-style: italic; }
 
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: .67em 0; }
 
 mark {
@@ -589,7 +589,7 @@ fieldset {
   margin: 0;
   border: none; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 300px) {
   h3 {
     padding: 50px 0 50px; } }
 .alt-section {
@@ -599,8 +599,8 @@ fieldset {
     color: #a52785; } 
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   text-transform: uppercase; }
 
 header, footer {
@@ -649,7 +649,7 @@ header {
     color: rgb(255, 239, 93);
     line-height: 1; }
 
-@media (max-width: 640px) {
+@media (max-width: 400px) {
   header {
     background-position: 50% 20px, 50% 50%; }
     header nav {
@@ -659,7 +659,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg); }
+  background-image: url(../img/logo.svg), url(../img/fc_hero2-shop.png); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
