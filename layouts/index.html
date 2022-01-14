@@ -1,7 +1,15 @@
-{{ define "main" }}
-<main class="products">
-{{ range .Site.Data.products }}
-  {{ partial "product" . }}
-{{ end }}
-</main>
-{{ end }}
+{{ partial "head.html" . }}
+
+{{ partial "header.html" . }}
+
+{{ $products := getJSON "/data/products.json" }}
+
+<section class="container">
+    <div class="row">
+        {{ range $products }}
+            {{ partial "product.html" . }}
+        {{ end }}
+    </div>
+</section>
+
+{{ partial "footer.html" }}
