@@ -1,5 +1,4 @@
-
-<header id="header" class="header">
+<header id="header">
   {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
   {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
     <!-- <nav class="nav-wrapper indigo darken-4"> -->
@@ -8,10 +7,10 @@
         <!-- {{ with .Site.Data.clients.title }}<a href="#services">{{ . }}</a>{{ end }} -->
         <!-- {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }} -->
     <!-- </nav> -->
-    <nav class="nav-wrapper indigo darken-1">
-      <div class="nav-wrapper indigo darken-1">
-        <ul id="nav-mobile" class="left valign-wrapper">
-          <li><a href="https://www.faultycat.com.au">Home</a></li>
+    <nav class="nav-wrapper indigo darken-3">
+      <div class="brand-logo left valign-wrapper">
+        <ul>
+          <li><h4><a href="https://www.faultycat.com.au" class="waves-effect">Home</a></h4></li>
         </ul>
       </div>
     </nav>
@@ -21,7 +20,7 @@
      <img class="header__logo" src="logo.svg" alt="clouddeli logo"> 
     <h1 class="header__title">{{ .Site.Title }}</h1>
   </a>  -->
-<div class="nav-wrapper indigo darken-2" style="text-align: right; padding-left: 30px; padding-right: 50px">
+<div class="nav-wrapper indigo lighten-4" style="text-align: right; padding-left: 30px; padding-right: 50px">
     <a href="#" class="snipcart-checkout" style="text-decoration: none;">
       <div class="snipcart-summary">
         <span>SHOPPING CART: 🛒</span>
@@ -30,21 +29,3 @@
     </a>
   </div>
 </header>
-
-
-
-<!-- <body>
-  <div class="container">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Star Trek shop</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="snipcart-summary">
-            <a href="#" class="snipcart-checkout">
-              View cart (<span class="snipcart-total-items">0</span>)
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div> -->

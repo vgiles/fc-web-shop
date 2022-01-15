@@ -3,7 +3,7 @@
 {{ partial "header.html" . }}
 
 {{ $products := getJSON "/data/products.json" }}
-
+<section class="alt-section">
 <section class="container">
     <div class="row">
         {{ range $products }}
@@ -11,5 +11,8 @@
         {{ end }}
     </div>
 </section>
-
+</section>
 {{ partial "footer.html" }}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/functions.js"></script>
