@@ -4,13 +4,13 @@
 
 {{ $products := getJSON "/data/products.json" }}
 <section class="alt-section">
-<section class="container">
+<!-- <section class="container"> -->
     <div class="row">
         {{ range $products }}
             {{ partial "product.html" . }}
         {{ end }}
     </div>
-</section>
+<!-- </section> -->
 </section>
 {{ partial "footer.html" }}
 
