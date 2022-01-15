@@ -1,7 +1,7 @@
 [
   {
     "id": "FCP-Lesson",
-    "guid": "846494f3-6f26-443c-803a-950a06349f19",
+    "file-guid": "846494f3-6f26-443c-803a-950a06349f19",
     "name": "Individual Composition and/or Production Lesson",
     "price": "100",
     "image": "/productImages/lesson.png",
@@ -10,7 +10,7 @@
   },
   {
     "id": "FCP-StrengthDex1",
-    "guid": "846494f3-6f26-443c-803a-950a06349f19",
+    "file-guid": "846494f3-6f26-443c-803a-950a06349f19",
     "name": "Bass Guitar Dexterity Exercise",
     "price": 2,
     "image": "/productImages/dexEx1.png",
@@ -19,7 +19,7 @@
   },
   {
     "id": "FCP-SimpleRhythmHierarchy",
-    "guid": "07654209-9a56-479e-8178-92af9daa2513",
+    "file-guid": "07654209-9a56-479e-8178-92af9daa2513",
     "name": "Rhythm Hierarchy Worksheet",
     "price": 2,
     "image": "/productImages/rhythmHierarchy.png",
@@ -28,7 +28,7 @@
   },
   {
     "id": "FCP-BassModesTetrachords",
-    "guid": "b5152e2b-1c57-48af-bc7b-15619a3b1611",
+    "file-guid": "b5152e2b-1c57-48af-bc7b-15619a3b1611",
     "name": "Bass Guitar Modes Theory and Practice with Tetrachords",
     "price": 3,
     "image": "/productImages/modesTetrachords_1.png",
