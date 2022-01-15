@@ -1,19 +1,21 @@
 <header id="header">
-  {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
-  {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
+
     <!-- <nav class="nav-wrapper indigo darken-4"> -->
         <!-- <a href="https://faultycat.com.au">Home</a> -->
         <!-- {{ with .Site.Params.about.title }}<a href="#about-me">{{ . }}</a>{{ end }} -->
         <!-- {{ with .Site.Data.clients.title }}<a href="#services">{{ . }}</a>{{ end }} -->
         <!-- {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }} -->
     <!-- </nav> -->
-    <nav class="nav-wrapper indigo darken-3">
-      <div class="brand-logo left valign-wrapper">
+    <!-- <nav class="nav-wrapper blue darken-4">
+      <div class="brand-logo left">
         <ul>
-          <li><h4><a href="https://www.faultycat.com.au" class="waves-effect">Home</a></h4></li>
+          <li><h4><a href="https://www.faultycat.com.au">Home</a></h4></li>
         </ul>
       </div>
-    </nav>
+
+    </nav> -->
+    {{ with .Site.Params.header.title }}<h1><a href="https://faultycat.com.au"><span>{{ . }}</span></a></h1>{{ end }}
+    {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
 
 
   <!-- <a class="header__branding" href="/">
